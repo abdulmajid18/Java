@@ -65,3 +65,14 @@ class BoxWeight extends Box {
         weight = m;
     }
 }
+
+class ColourBox extends Box {
+    int colour;
+
+    ColourBox(double w, double h, double d, int c) {
+        width = w;
+        height = h;
+        depth = d;
+        colour = c;
+    }
+}
