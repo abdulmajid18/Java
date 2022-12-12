@@ -12,7 +12,7 @@ public class SuperSubCatch {
          * This catch is never reached because
          * ArithmeticException is a subclass of Exception.
          */
-        catch (ArithmeticException e) { // ERROR – unreachable
+        catch (ArithmeticException) { // ERROR – unreachable
             System.out.println("This is never reached.");
         }
     }
