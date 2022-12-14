@@ -6,7 +6,7 @@ class MultiCatch {
         int a = 10, b = 0;
         int[] vals = { 1, 2, 3 };
         try {
-            int result = a / b; // generate an ArithmeticException
+            // int result = a / b; // generate an ArithmeticException
             //
             vals[10] = 19; // generate an ArrayIndexOutOfBoundsException
             // This catch clause catches both exceptions.
