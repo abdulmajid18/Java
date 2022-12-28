@@ -7,8 +7,8 @@ public class EmployeeTest {
         Employee[] staff = new Employee[3];
 
         staff[0] = new Employee("Adams Smith", 5000, 1970, 1, 1);
-        staff[0] = new Employee("John Smith", 10000, 1977, 2, 2);
-        staff[0] = new Employee("John Doe", 4000, 1979, 3, 3);
+        staff[1] = new Employee("John Smith", 10000, 1977, 2, 2);
+        staff[2] = new Employee("John Doe", 4000, 1979, 3, 3);
 
         for (Employee e : staff) {
             e.raiseSalary(5);
