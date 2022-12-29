@@ -15,7 +15,7 @@ public class DemoJoin {
         System.out.println("Thread Three is alive: " + nt3.t.isAlive());
 
         try {
-            System.out.println("Waiting for hreads to finish");
+            System.out.println("Waiting for threads to finish");
             nt1.t.join();
             nt2.t.join();
             nt3.t.join();
