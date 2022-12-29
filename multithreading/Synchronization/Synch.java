@@ -31,7 +31,7 @@ class Callme {
         } catch (InterruptedException e) {
             System.out.println("Interrupted");
         }
-        System.out.print("]");
+        System.out.println("]");
     }
 }
 
