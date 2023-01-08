@@ -17,8 +17,6 @@ class Employee {
 
     Employee(String name) {
         this.name = name;
-        id = nextId;
-        nextId++;
     }
 
     void use(Employee e) {
