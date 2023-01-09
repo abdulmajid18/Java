@@ -12,6 +12,17 @@ public class ParamTest {
         System.out.println("Before: percent=" + percent);
         tripleValue(percent);
         System.out.println("After: percent=" + percent);
+
+        /*
+         * Test 2: Methods can change the state of object
+         */
+
+        System.out.println("\nTesting tripleSalary:");
+        var harry = new Employee("Harry", 50000);
+        System.out.println("Before: salary=" + harry.getSalary());
+        tripleSalary(harry);
+        System.out.println("After: salary:" + harry.getName());
+
     }
 
     public static void tripleValue(double x) {
