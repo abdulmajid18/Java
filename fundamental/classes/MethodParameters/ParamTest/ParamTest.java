@@ -2,6 +2,18 @@ package hello.fundamental.classes.MethodParameters.ParamTest;
 
 public class ParamTest {
 
+    public static void main(String[] args) {
+        /*
+         * Test 1: Methods can't modify numeric parameters
+         */
+
+        System.out.println("Testing tripleValue:");
+        double percent = 10;
+        System.out.println("Before: percent=" + percent);
+        tripleValue(percent);
+        System.out.println("After: percent=" + percent);
+    }
+
     public static void tripleValue(double x) {
         x = 3 * x;
         System.out.println("End of Method: x=" + x);
