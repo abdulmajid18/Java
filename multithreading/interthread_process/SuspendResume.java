@@ -32,7 +32,6 @@ public class SuspendResume {
             System.out.println("Main thread Interrupted");
         }
         System.out.println("Main thread exiting.");
-
     }
 }
 
